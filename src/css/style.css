@@ -73,7 +73,7 @@
 /* ESTILIZAÇÃO DA PÁGINA PRINCIPAL */
 
 header{
-    background: var(--fundo-trasparente);
+    background:#0e1b1d46;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -557,7 +557,7 @@ footer{
 
 /* PÁGINA NO MOBILE */
 @media screen and (max-width: 500px) {
-    body, html {
+    *{
         margin: 0;
         padding: 0;
     }
@@ -567,20 +567,25 @@ footer{
     }
 
     header {
-        flex-direction: column;
+        display: flex;
         align-items: center;
-        justify-content: center;
-        padding: 10px;
+
+        
     }
 
     #imagem-background{
         width: 100%;
         height: 100vh;
         position: relative;
-    }er
+    }
 
     #logotipo {
+        margin-left: 20px;
+    }
+
+    .menu{
         margin: 0;
+        margin-right: 20px;
     }
 
     #logotipo img {
@@ -597,18 +602,19 @@ footer{
     }
 
     .slide-container h1 {
-        font-size: 40px;
-        letter-spacing: 1px;
+        font-size: 90px;
+        max-width: 100%;
     }
 
     .slide-container h2 {
-        font-size: 60px;
+        font-size: 120px;
         margin-left: 0;
         letter-spacing: 1px;
     }
 
     .slide-container p {
-        font-size: 20px;
+        font-size: 30px;
+        margin-top: -15px;
     }
 
     .slide-container img {
@@ -617,12 +623,8 @@ footer{
     }
 
     .titulo_principal {
-        line-height: 45px;
+        line-height: 85px;
         margin-top: 150px;
-    }
-
-    .titulo_principal p{
-        line-height: 20px;
     }
 
     .sec1, .sec2, .sec3, .sec4, .sec5, .sec6, .sec7 {
@@ -636,6 +638,7 @@ footer{
     }
 
     .container-sec1, .container-sec2, .container-sec3, .container-sec4, .container-sec5, .container-sec6, .container-sec7 {
+        display: flex;
         flex-direction: column;
         align-items: center;
         gap: 20px;
