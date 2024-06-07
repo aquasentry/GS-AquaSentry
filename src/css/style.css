@@ -556,6 +556,10 @@ footer{
 
 /* PÁGINA NO MOBILE */
 @media screen and (max-width: 430px) {
+    body, html {
+    margin: 0;
+    padding: 0;
+}
     header {
         flex-direction: column;
         align-items: center;
@@ -591,6 +595,16 @@ footer{
 
     .slide-container p {
         font-size: 20px;
+    }
+
+    .slide-container img{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .titulo_principal{
+        line-height: 65px;
+        margin-top: 300px;
     }
 
     .sec1, .sec2, .sec3, .sec4, .sec5, .sec6, .sec7 {
