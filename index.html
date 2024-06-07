@@ -32,7 +32,11 @@
         <main class="conteudo">
             <!-- SESSÃO DO CARROSSEL-->
             <section class="slide-container">
-                 <img src="./src/imagens/background.png" alt="imagem-background" id="imagem-background"> 
+                <video id="video-background" autoplay loop muted>
+                    <source src="./src/video/sea.mp4" type="video/mp4">
+                    <!-- Adicione mais elementos <source> para diferentes formatos de vídeo, se necessário -->
+                    Seu navegador não suporta o elemento de vídeo.
+                </video>
 
                 <div class="titulo_principal">
                     <h1>Ajudando o</h1>
@@ -218,5 +222,7 @@
             </div>
         </footer>
     </div>
+
+    <script src="./src/javascript/script.js"></script>
 </body>
 </html>
