@@ -121,6 +121,14 @@ header{
     color: var(--text-color2);
 }
 
+.menu button{
+    /* width: 65px;
+    height: 65px; */
+    border: none;
+    /* border-radius: 60px; */
+    background: none;
+}
+
 main{
     background: var(--back-color);
 
@@ -344,7 +352,7 @@ span{
     height: 100vh;
     justify-content: center;
     gap: 70px;
-    color: white;
+    color: var(--text-color);
 }
 
 .titulo-sec4{
@@ -437,7 +445,7 @@ span{
 
 .container-sec6{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     gap: 60px;
 }
@@ -544,4 +552,33 @@ footer{
     background-color: white;
     text-align: center;
     height: 25px;
+}
+
+/* PÁGINA NO MOBILE */
+@media screen and (max-width: 730px) {
+    header{
+        width: 1030px;
+    }
+
+    .menu{
+        margin-right: 115px;
+    }
+    
+    .nav-lista{
+        display: none;
+    }
+    
+    .menu button{
+        border: none;
+        background: none;
+    }
+
+    #imagem-background{
+        width: 1030px;
+        height: 1500px;
+    }
+    
+    .titulo_principal{
+        margin-top: 200px;
+    }
 }
