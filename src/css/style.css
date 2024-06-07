@@ -555,7 +555,7 @@ footer{
 }
 
 /* PÁGINA NO MOBILE */
-@media screen and  (max-width: 0) {
+@media screen and (min-width: 0) and (max-width: 320) {
     body, html  {
     margin: 0;
     padding: 0;
