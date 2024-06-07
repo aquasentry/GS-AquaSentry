@@ -555,30 +555,205 @@ footer{
 }
 
 /* PÁGINA NO MOBILE */
-@media screen and (max-width: 730px) {
-    header{
-        width: 1030px;
+@media screen and (max-width: 430px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
     }
 
-    .menu{
-        margin-right: 115px;
-    }
-    
-    .nav-lista{
-        display: none;
-    }
-    
-    .menu button{
-        border: none;
-        background: none;
+    #logotipo {
+        margin: 0;
+        img {
+            width: 50px;
+        }
     }
 
-    #imagem-background{
-        width: 1030px;
-        height: 1500px;
+    .nav-lista {
+        display: none; /* Esconde a lista de navegação */
     }
-    
-    .titulo_principal{
-        margin-top: 200px;
+
+    .slide-container {
+        margin: 10px;
+        text-align: center;
+    }
+
+    .slide-container h1 {
+        font-size: 40px;
+    }
+
+    .slide-container h2 {
+        font-size: 60px;
+        margin-left: 0;
+        letter-spacing: 8px;
+    }
+
+    .slide-container p {
+        font-size: 20px;
+    }
+
+    .sec1, .sec2, .sec3, .sec4, .sec5, .sec6, .sec7 {
+        padding: 20px;
+        height: auto;
+        text-align: center;
+    }
+
+    .titulo-sec1, .titulo-sec2, .titulo-sec3, .titulo-sec4, .titulo-sec5, .titulo-sec6, .titulo-sec7 {
+        font-size: 24px;
+    }
+
+    .container-sec1, .container-sec2, .container-sec3, .container-sec4, .container-sec5, .container-sec6, .container-sec7 {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .text-sec1, .text-sec2, .text-sec3, .text-sec4, .text-sec5, .text-sec6, .text-sec7 {
+        font-size: 18px;
+        max-width: 100%;
+    }
+
+    .container-sec1 img, .container-sec2 img, .container-sec3 img, .container-sec4 img, .container-sec5 img, .container-sec6 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .sec2 {
+        text-align: center;
+    }
+
+    .titulo-sec2 {
+        font-size: 24px;
+    }
+
+    .container-sec2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .divisao-sec2, .divisao1-sec2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .sec2 div img{
+        width: 300px;
+    }
+
+    .sec3 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .titulo-sec3 {
+        font-size: 24px;
+    }
+
+    .container-sec3 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .divisao-sec3 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .text-sec3 {
+        width: 100%;
+    }
+
+    .text-sec3 p {
+        font-size: 18px;
+    }
+
+    .sec3 img {
+        width: 50px; /* Diminui os ícones */
+        padding: 10px; /* Ajusta o padding dos ícones */
+        border-radius: 15px; /* Ajusta o border-radius dos ícones */
+    }
+
+    .sec4 p {
+        margin-bottom: 20px; /* Adiciona espaço entre os parágrafos */
+    }
+
+    .sec5 p{
+        margin-bottom: 20px;
+    }
+
+        /* Espaçamento entre parágrafos */
+    p {
+        margin-bottom: 20px;
+    }
+
+    /* Tamanho do texto na secção 2 */
+    .container-sec2 p{
+        font-size: 18px;
+    }
+
+    .container-sec7 p{
+        font-size: 18px;
+    }
+
+    /* Tamanho da imagem na secção 1 */
+    #img-sec1 {
+        width: 300px; /* Ajuste conforme necessário */
+        height: auto; /* Altura ajustada automaticamente para manter a proporção */
+    }
+
+    footer {
+        background: var(--azul-claro);
+        color: white;
+        padding: 20px 0; /* Reduzindo o padding do footer */
+        text-align: center;
+    }
+
+    .contato-footer {
+        background-color: #082E36;
+        display: flex;
+        flex-direction: column; /* Ajustando para coluna */
+        align-items: center;
+        justify-content: center; /* Alinhamento centralizado verticalmente */
+        height: auto; /* Altura automática para se ajustar ao conteúdo */
+        color: white;
+        padding: 20px;
+    }
+
+    .redes{
+        margin-top: 20px;
+    }
+
+    .redes h4{
+        margin-bottom: 10px;
+    }
+
+    .contato p, .redes a {
+        font-size: 20px;
+    }
+
+    .redes_sociais {
+        display: flex;
+        /* flex-direction: column; Ajustando para coluna */
+        gap: 10px;
+    }
+
+    .redes_sociais a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+
+    .redes_sociais img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer-final {
+        background-color: white;
+        text-align: center;
+        height: 25px;
     }
 }
