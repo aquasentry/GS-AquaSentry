@@ -561,6 +561,10 @@ footer{
         padding: 0;
     }
 
+    p {
+        margin-bottom: 20px;
+    }
+
     header {
         flex-direction: column;
         align-items: center;
@@ -635,6 +639,11 @@ footer{
         height: auto;
     }
 
+    #img-sec1 {
+        width: 300px;
+        height: auto;
+    }
+
     .sec2 {
         text-align: center;
     }
@@ -647,6 +656,10 @@ footer{
         flex-direction: column;
         align-items: center;
         gap: 20px;
+    }
+
+    .container-sec2 p {
+        font-size: 18px;
     }
 
     .divisao-sec2, .divisao1-sec2 {
@@ -700,24 +713,8 @@ footer{
         margin-bottom: 20px;
     }
 
-    /* Espaçamento entre parágrafos */
-    p {
-        margin-bottom: 20px;
-    }
-
-    /* Tamanho do texto na secção 2 */
-    .container-sec2 p {
-        font-size: 18px;
-    }
-
     .container-sec7 p {
         font-size: 18px;
-    }
-
-    /* Tamanho da imagem na secção 1 */
-    #img-sec1 {
-        width: 300px; /* Ajuste conforme necessário */
-        height: auto; /* Altura ajustada automaticamente para manter a proporção */
     }
 
     footer {
