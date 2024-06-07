@@ -555,10 +555,10 @@ footer{
 }
 
 /* PÁGINA NO MOBILE */
-@media screen and (max-width: 767px) {
-    body, html  {
-    margin: 0;
-    padding: 0;
+@media screen and (max-width: 412px) {
+    body, html {
+        margin: 0;
+        padding: 0;
     }
 
     header {
@@ -570,9 +570,10 @@ footer{
 
     #logotipo {
         margin: 0;
-        img {
-            width: 50px;
-        }
+    }
+
+    #logotipo img {
+        width: 50px;
     }
 
     .nav-lista {
@@ -598,12 +599,12 @@ footer{
         font-size: 20px;
     }
 
-    .slide-container img{
+    .slide-container img {
         width: 100%;
         height: 100vh;
     }
 
-    .titulo_principal{
+    .titulo_principal {
         line-height: 65px;
         margin-top: 300px;
     }
@@ -654,7 +655,7 @@ footer{
         gap: 20px;
     }
 
-    .sec2 div img{
+    .sec2 div img {
         width: 300px;
     }
 
@@ -695,21 +696,21 @@ footer{
         margin-bottom: 20px; /* Adiciona espaço entre os parágrafos */
     }
 
-    .sec5 p{
+    .sec5 p {
         margin-bottom: 20px;
     }
 
-        /* Espaçamento entre parágrafos */
+    /* Espaçamento entre parágrafos */
     p {
         margin-bottom: 20px;
     }
 
     /* Tamanho do texto na secção 2 */
-    .container-sec2 p{
+    .container-sec2 p {
         font-size: 18px;
     }
 
-    .container-sec7 p{
+    .container-sec7 p {
         font-size: 18px;
     }
 
@@ -737,21 +738,21 @@ footer{
         padding: 20px;
     }
 
-    .redes{
+    .redes {
         margin-top: 20px;
     }
 
-    .redes h4{
+    .redes h4 {
         margin-bottom: 10px;
     }
 
-    .contato p, .redes a {
+    .contato p,
+    .redes a {
         font-size: 20px;
     }
 
     .redes_sociais {
         display: flex;
-        /* flex-direction: column; Ajustando para coluna */
         gap: 10px;
     }
 
